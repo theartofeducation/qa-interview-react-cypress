@@ -14,8 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "cypress:run": "cypress run"
+    "eject": "react-scripts eject",    
+    "cypress": "cypress open"
   },
   "devDependencies": {
     "cypress": "^13.6.1",
