@@ -4,16 +4,24 @@
 
 .ArtistDetails {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   padding: 8px;
 }
 
-.ArtistDetails__img {    
-  margin-right: 16px;;
+.ArtistDetails__img {
+  margin-right: 16px;
+}
+
+.ArtistDetails__img img {
+  width: 200px;
 }
 
 .ArtistDetails__content {
   padding-left: 16px;
   border-left: 1px solid #ccc;
-  
+}
+
+.FamousWorkButton {
+  display: block;
+  margin-bottom: 16px;
 }

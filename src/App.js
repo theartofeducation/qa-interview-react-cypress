@@ -54,8 +54,7 @@ function App() {
       </header>
       <div className="ArtistDetails">
         <div className="ArtistDetails__img">
-          <img
-            style={{ width: "200px" }}
+          <img            
             alt="vincent van gogh portrait"
             src="https://static01.nyt.com/images/2013/10/17/arts/international/17iht-rartvangogh17b/17iht-rartvangogh17b-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
           />
@@ -76,7 +75,7 @@ function App() {
               <ul>
                 {artistDetails.famousWorks.map((work, index) => (
                   <button
-                    style={{ display: "block", marginBottom: "8px" }}
+                    className="FamousWorkButton"
                     key={index}
                     onClick={() => showWorkDetails(work)}
                   >
