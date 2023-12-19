@@ -1,3 +1,23 @@
+/**
+ * Cypress Testing Suite for the Artist Details Page
+ * =================================================
+ * 
+ * Candidate Instructions:
+ * - Your task is to implement the test cases outlined in this suite.
+ * - Focus on writing robust assertions to validate the application's behavior and UI elements.
+ * - Use Cypress commands and best practices to interact with the application.
+ * - Refer to Cypress documentation for guidance: https://docs.cypress.io/api/table-of-contents
+ * 
+ * The tests should cover the following:
+ * 1. Rendering of the application without crashing.
+ * 2. Presence of initial UI elements.
+ * 3. Loading and displaying artist details.
+ * 4. Interaction with UI elements like buttons and list items.
+ * 5. Management and preservation of UI state across different actions.
+ * 
+ * Ensure your tests are clear, maintainable, and effectively validate the expected functionalities.
+ */
+
 describe('Artist Details Page', () => {
   it('renders the application without crashing', () => {
     cy.visit('http://localhost:3000');
